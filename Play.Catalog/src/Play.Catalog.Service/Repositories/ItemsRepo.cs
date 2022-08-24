@@ -7,7 +7,7 @@ namespace Play.Catalog.Service.Repositories
    public class ItemsRepo : IItemsRepo
    {
       // the DI pattern and mongodb setup
-      private const string databaseName = "catalogServiceDB";
+      private const string databaseName = "Catalog";
       private const string collectionName = "Items";
       private readonly IMongoCollection<Item> itemsCollection;
       public ItemsRepo(IMongoClient mongoClient)

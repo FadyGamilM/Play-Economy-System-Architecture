@@ -1,6 +1,6 @@
 namespace Play.Catalog.Service.Models
 {
-   public class Item
+   public record Item
    {
       public Guid Id {get; set;}
       public string Name { get; set; }
