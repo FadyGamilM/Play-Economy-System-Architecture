@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Plat.Catalog.Service\\Plat.Catalog.Service.csproj": {}
+    "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Play.Catalog.Service\\Plat.Catalog.Service.csproj": {}
   },
   "projects": {
-    "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Plat.Catalog.Service\\Plat.Catalog.Service.csproj": {
+    "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Play.Catalog.Service\\Plat.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Plat.Catalog.Service\\Plat.Catalog.Service.csproj",
+        "projectUniqueName": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Play.Catalog.Service\\Plat.Catalog.Service.csproj",
         "projectName": "Plat.Catalog.Service",
-        "projectPath": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Plat.Catalog.Service\\Plat.Catalog.Service.csproj",
+        "projectPath": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Play.Catalog.Service\\Plat.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\vip\\.nuget\\packages\\",
-        "outputPath": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Plat.Catalog.Service\\obj\\",
+        "outputPath": "F:\\__111 COMPUTER SCIENCE\\4th CSE 2022\\dotnet\\dev\\Play-Economy-System-Architecture\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
